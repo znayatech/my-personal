@@ -267,5 +267,14 @@ function opentab(tabname) {
       .catch(error => console.error('Error!', error.message))
   })
 </script>
+	   <script src="https://wzrd.in/standalone/formdata-polyfill"></script>
+<script src="https://wzrd.in/standalone/promise-polyfill@latest"></script>
+<script src="https://wzrd.in/standalone/whatwg-fetch@latest"></script>
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbx2JbsF58wyJrHvsx16LT_DzJJdRzMlVlGvojiSrow3NbCEAKaeswUGU8wha0k32JdN/exec'
+  const form = document.forms['submit-to-google-sheet']
+  ...
+</script>
    </body>
  </html>
